@@ -6,16 +6,23 @@ ChromeProfile/
 WhatsAppProfile/
 __pycache__/
 .vscode/
-*.json
 
-# Arquivos de dados e logs
+# Arquivos de dados, cache e logs
+*.json
 historico_precos.csv
+historico_ofertas.csv
 *_backup.csv
-cache_envios_24h.json
-cache_envios_5dias.json
 shopee_links.txt
 links.txt
 *.log
 
-# Cofre de senhas
+# Cofre de senhas e segredos
 .env
+
+# Arquivos temporários, rascunhos e imagens
+*.jpg
+*.jpeg
+*.png
+temp_*
+a.txt
+rastreadorteste.py
